@@ -1,1 +1,233 @@
-heelo world
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="icon" href="img/arrowLogo.png" type="image/gif" sizes="16x16">
+    <title> My Portfolio</title>
+    <link href="dist/css/main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,400" rel="stylesheet" type="text/css">
+    <!-- Preloader Script -->
+    <script>
+      //
+      	$(window).load(function() {
+      		$('.loader').fadeOut();
+      		$('#preloader').delay(400).fadeOut('slow');
+      		$('body').delay(400).removeClass('noscroll');
+      	})
+      //
+    </script>
+  </head>
+  <body class="noscroll">
+    <section class="intro">
+      <div class="intro-copy">
+        <div class="wrapper">
+        <img src="img/arrowLogo.png" style="width:20px; height:20px;" />
+          <h1>
+            Hello! I am Shubhangi, a web designer & developer based in Bangalore.
+          </h1>
+        </div>
+      </div>
+      <div class="arrow"></div>
+    </section>
+    <section class="projects">
+      <div class="projects-stage">
+        <a class="project-preview hj" data-modal-target="hj">
+          <figure class="project-figure">
+            <div class="project-tmb-overlay"></div>
+            <img src="img/engraveMyPhone.gif" style="width:70%;height:70%;padding-top:11%; padding-bottom:12%;">
+            <figcaption class="project-caption">
+              <h2>#EngraveMyPhone</h2>
+              <p>Campaign &middot; Webpage</p>
+            </figcaption>
+          </figure>
+        </a>
+        <a class="project-preview bos" data-modal-target="bos">
+          <figure class="project-figure" style="background-color:#fff;">
+            <div class="project-tmb-overlay"></div>
+            <img src="img/creoTeaser.png" style="padding-top:8%; padding-bottom:1.6%;">
+            <figcaption class="project-caption">
+              <h2>Creo teaser site</h2>
+              <p>Website Launch</p>
+            </figcaption>
+          </figure>
+        </a>
+        
+        <a class="project-preview fp" data-modal-target="fp">
+          <figure class="project-figure" style="background-color:#fff;">
+            <div class="project-tmb-overlay"></div>
+            <img src="img/teeweRenderer.gif" style="padding-bottom:2.5%; width:90%; height:90%; padding-top:5%;">
+            <figcaption class="project-caption">
+              <h2>Teewe Renderer</h2>
+              <p>Campaign &middot; Webpage</p>
+            </figcaption>
+          </figure>
+        </a>
+
+        <a class="project-preview savry" data-modal-target="savry">
+          <figure class="project-figure">
+            <div class="project-tmb-overlay"></div>
+            <img src="img/bonjourAppScreen.png" style="width:25%; height:25%; padding-top:6%;padding-bottom:6%;">
+            <figcaption class="project-caption">
+              <h2>Bonjour</h2>
+              <p>Mobile App &middot; Design</p>
+            </figcaption>
+          </figure>
+        </a>
+
+        <a class="project-preview houzify" data-modal-target="houzify">
+          <figure class="project-figure">
+            <div class="project-tmb-overlay"></div>
+            <img src="img/houzifyAppScreen_1.png" style="width:25%; height:25%; padding-top:6%;padding-bottom:6%;">
+            <figcaption class="project-caption">
+              <h2>Houzify Filter Redesign</h2>
+              <p>Mobile App &middot; Redesign</p>
+            </figcaption>
+          </figure>
+        </a>
+
+         <a class="project-preview new" data-modal-target="new" >
+          <figure class="project-figure" style="background-color:#fff;">
+            <div class="project-tmb-overlay"></div>
+            <img src="img/homelyBuysLogo.png" style="width:20%; height:20%;padding-top:21.5%;padding-bottom:21%;">
+            <figcaption class="project-caption">
+              <h2>Homely Buys</h2>
+              <p>Logo &middot; Design</p>
+            </figcaption>
+          </figure>
+        </a>
+
+        
+       
+      </div>
+    </section>
+    <section class="content contact" style="padding-bottom:5%;">
+      <a class="button-slide" data-hover="shubhi.raj13@gmail.com" href="mailto:shubhi.raj13@gmail.com">
+        <span>
+          Get in touch
+        </span>
+      </a>
+    </section>
+   <!--  <footer>
+      <div class="wrapper">
+        <ul>
+          <li>
+            <a href="https://github.com/hypersnob/doteatdot" target="_blanc">Source</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/olegzayarniy" target="_blanc">Linkedin</a>
+          </li>
+        </ul>
+      </div>
+    </footer> -->
+    <div class="over hj" data-modal-id="hj">
+      <div class="close" data-modal-action="close"></div>
+      <div class="wrapper">
+        <h1>#EngraveMyPhone</h1>
+        <p>
+          #EngraveMyPhone was a marketing campaign initiated to publicize the engraving feature of Mark-1 phone. A user interacting with the website will be able to type in his/her message, preview and share it. I was part of the design and developement of the website.
+        </p>
+        <p>
+          <span class="label">Design</span>
+          <span class="label">Front-end</span>
+          <span class="label">Bootstrap</span>
+        </p>
+        <div class="stage" style="border:1px solid #ededed;">
+          <img src="img/engraveMyPhone.gif">
+        </div>
+      </div>
+    </div>
+    <div class="over bos" data-modal-id="bos">
+      <div class="close" data-modal-action="close"></div>
+      <div class="wrapper">
+        <h1>Creo Teaser Website</h1>
+        <p>
+         In January 2016, we launched a teaser website for our new company name 'Creo' and product 'Mark-1'. I was part of the design, information flow, user interaction and managed the developement process for the website. The website served the purpose of divulging latest information about our upcoming phone 'Mark-1'.
+        </p>
+        <p>
+          <span class="label">Design</span>
+          <span class="label">UX</span>
+        </p>
+        <div class="stage" style="border:1px solid #ededed;">
+          <img src="img/creoTeaserHomepage.png">
+        </div>
+        <p></p>
+        <p>
+         Mockups for the website.
+        </p>
+        <div class="stage" style="border:1px solid #ededed;">
+          <img src="img/creoTeaserMockups.png">
+        </div>
+      </div>
+    </div>
+    <div class="over fp" data-modal-id="fp">
+      <div class="close" data-modal-action="close"></div>
+      <div class="wrapper">
+        <h1>Teewe Renderer Webpage</h1>
+        <p>
+          In 2015, before Teewe was rechristened Creo, we ran a campaign to promote the "All New Teewe" experience to our users. I was part of the design and developement of the landing page. 
+        </p>
+        <p>
+          <span class="label">Design</span>
+          <span class="label">Front-end</span>
+          <span class="label">Bootstrap</span>
+        </p>
+        <div class="stage" style="border:1px solid #ededed;">
+          <img src="img/teeweRendererLP.png">
+        </div>
+      </div>
+    </div>
+    <div class="over savry" data-modal-id="savry">
+      <div class="close" data-modal-action="close"></div>
+      <div class="wrapper">
+        <h1>Bonjour App Design</h1>
+        <p>
+          A personal project I started working upon along with a friend. The idea was to create a classifier for mobile messages.
+        </p>
+        <p>
+          <span class="label">Design</span>
+          <span class="label">UX</span>
+        </p>
+        <div class="stage">
+          <img src="img/bonjourAppScreen_2.png" style="width:30%; height:30%;display:inline;padding-top:5%; padding-bottom:5%;">
+        </div>
+      </div>
+    </div>
+    <div class="over houzify" data-modal-id="houzify">
+      <div class="close" data-modal-action="close"></div>
+      <div class="wrapper">
+        <h1>Houzify Filter Screen Redesign</h1>
+        <p>
+         A personal project to redesign the filter screen of Houzify app.
+        </p>
+        <p>
+          <span class="label">Design</span>
+          <span class="label">Front-end</span>
+          <span class="label">UX</span>
+        </p>
+        <div class="stage">
+          <img src="img/houzifyMockups.png" style="width:70%; height:70%;display:inline;padding-top:5%; padding-bottom:5%;">
+        </div>
+      </div>
+    </div>
+    <div class="over new" data-modal-id="new">
+      <div class="close" data-modal-action="close"></div>
+      <div class="wrapper">
+        <h1>Homely Buys Logo Design</h1>
+        <p>
+          Worked on the creation of a logo for Homely Buys app. Below are the iterations of the logo design.
+        </p>
+        <p>
+          <span class="label">Logo</span>
+          <span class="label">Design</span>
+        </p>
+        <div class="stage">
+          <img src="img/homelyBuysLogoMocks.png" style="padding:5%;">
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="dist/js/main-min.js" type="text/javascript"></script>
+  <script src="dist/js/remodal-min.js" type="text/javascript"></script>
+</html>
