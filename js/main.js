@@ -19,8 +19,8 @@ $(window).scroll(function(){
 	}
 });
 
-// Scroll to Projects
-$('.intro').click(function() {
+//Scroll to Projects
+$('.arrow').click(function() {
 	$('html,body').animate({
 		scrollTop: $('.projects').offset().top
 	}, 800);
