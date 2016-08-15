@@ -1,0 +1,49 @@
+*{
+	font-family: 'Work Sans', sans-serif;
+}
+#portfolioTitle{
+	font-size:18px;
+	color: #616161;
+}
+.section_3{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.btn{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color:#fff;
+	border-radius: 3px;
+	background-color: #FF5252;
+	letter-spacing: 0.5px;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #FF5252;
+	border:1px solid #FF5252;
+	text-decoration: none;
+}
+.btn::active{
+	background-color: #fff;
+	color: #FF5252;
+	border:1px solid #FF5252;
+	text-decoration: none;
+}
+.section_4{
+	background-color: #333333;
+	height: 125px;
+}#workTitle{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+}
+#contactText{
+	font-weight: 300;
+	color:#fff;
+	margin-bottom: 0;
+}
+#skillText{
+	font-size:18px;
+	color: #616161;
+	font-weight: 300;
+}
