@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <title>Shubhangi's Portfolio</title>
 
-    <!--&lt;!&ndash;Adding Vue&ndash;&gt;-->
-    <!--<script src="https://unpkg.com/vue"></script>-->
-
-    <!--&lt;!&ndash;Linking JS files&ndash;&gt;-->
-    <!--<script src="js/app.js"/>-->
-
+    <!-- Adding Vue.js -->
+    <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
     <div id="app">
-       Will be up soon!
+        <p>{{ message }}</p>
+        <button v-on:click="changeMessage">Click Me!</button>
     </div>
+
+    <!-- Javascript -->
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue.js!'
+            },
+            methods: {
+                changeMessage: function(){
+                    this.message =  "Message changed"
+                }
+            }
+        })
+    </script>
 </body>
 </html>
