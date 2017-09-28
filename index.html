@@ -4,28 +4,49 @@
     <meta charset="UTF-8">
     <title>Shubhangi's Portfolio</title>
 
-    <!-- Adding Vue.js -->
+    <!-- Add Vue.js -->
     <script src="https://unpkg.com/vue"></script>
+
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-    <div id="app">
-        <p>{{ message }}</p>
-        <button v-on:click="changeMessage">Click Me!</button>
+    <div class="content" style="font-family: 'Arial Rounded MT Bold'">
+        <h3>Curating work till year end!</h3>
+        <h3>Find more info about me and my work on <a href="https://www.linkedin.com/in/agrawalshubhangi/">Linkedin</a> & <a href="https://github.com/ShubhangiRaj">Github</a></h3>
     </div>
+    <!--<div id="app">-->
+        <!--&lt;!&ndash;<img class="myPic" src="img/my_pic.jpg">&ndash;&gt;-->
+        <!--<div class="myPic"></div>-->
+        <!--<div class="bioContent">-->
+            <!--<h3>Bio</h3>-->
+            <!--<p>{{bio}}</p>-->
+        <!--</div>-->
+        <!--<div class="skillContent">-->
+            <!--<h3>Skills</h3>-->
+            <!--<p>{{skills}}</p>-->
+        <!--</div>-->
+        <!--<div class="socialContent">-->
+            <!--<h3>Social on</h3>-->
+            <!--<p>{{social}}</p>-->
+        <!--</div>-->
+    <!--</div>-->
 
-    <!-- Javascript -->
-    <script>
-        var app = new Vue({
-            el: '#app',
-            data: {
-                message: 'Hello Vue.js!'
-            },
-            methods: {
-                changeMessage: function(){
-                    this.message =  "Message changed"
-                }
-            }
-        })
-    </script>
+    <!--&lt;!&ndash; Javascript &ndash;&gt;-->
+    <!--<script>-->
+        <!--var app = new Vue({-->
+            <!--el: '#app',-->
+            <!--data: {-->
+                <!--bio: '25 years old | IT grad | UI Developer',-->
+                <!--skills: 'Lorem | Ipsum | Dolor',-->
+                <!--social: 'Linkedin | github | medium | twitter'-->
+            <!--},-->
+            <!--methods: {-->
+                <!--changeMessage: function(){-->
+                    <!--this.message =  "Message changed"-->
+                <!--}-->
+            <!--}-->
+        <!--})-->
+    <!--</script>-->
 </body>
 </html>
