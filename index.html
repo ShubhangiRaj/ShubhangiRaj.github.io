@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shubhangi Raj Agrawal</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -10,22 +11,25 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Custom CSS file-->
     <link rel="stylesheet" href="style.css">
   </head>
+  
   <body>
     <div class="conatiner-fluid">
       <!-- BEGIN NAVBAR -->
-      <div class="navbar container-fluid">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <!--<a href="#projects">Projects</a>-->
-        <a href="#certifications">Certifications</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+      <div class="navbar navbar-expand-lg">
+        <ul class="nav navbar-nav collapse navbar-collapse">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
       <!-- END NAVBAR -->
 
@@ -38,11 +42,15 @@
         <div class="jumbotron-social">
           <ul class="ul-social">
             <li class="li-social-links">
-              <a class="social" href="https://github.com/ShubhangiRaj" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </li>
-            <li class="li-social-links">
               <a class="social" href="https://www.linkedin.com/in/agrawalshubhangi/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </li>
+            <li class="li-social-links">
+              <a class="social" href="https://medium.com/@shubhangirajagrawal" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+            </li>
+            <li class="li-social-links">
+              <a class="social" href="https://github.com/ShubhangiRaj" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+            
             <li class="li-social-links">
               <a class="social" href="https://twitter.com/Shubhangi13" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </li>
@@ -62,11 +70,12 @@
             <a class="anchor" name="about"></a>
             <h2>About Me</h2>
           </div>
-          <div class="content-body">
-            <p>Hi, I am a front-end developer with focus on creating user interfaces for both web and mobile leveraging the latest of technologies. My goal is to build a career as an engineer who is an amalgam of development, design and business.</p>
+          <div class="content-body" align="justify">
+            <p>Hi! I am a front-end developer, with a focus on creating user interfaces for both web and mobile, leveraging the latest of technologies. My goal is to build a career as an engineer, who is an amalgam of development, design and business. With a total of 4+ years of work experience, I have spent last 2 years solely on frontend development. I also have prior experience in UI design and business operations.</p>
 
-            <p>I also try to share my learning experiences on medium and also tweet about them</p>
+            <p>To know more about my journey in tech and what keeps me motivated, feel free to read my blog on Medium about <a href="https://medium.com/netscape/why-sharing-coding-experiences-matter-134b40489438" target="_blank">"Why sharing coding experiences matter?"</a>.</p>
 
+            <p>Also, I keep adding new projects on my Github account as well as share what I read &amp; learn on Linkedin and Twitter. Since 2017, I have started writing blogs on Medium, about new techs and tools that I am learning.</p>
           </div>
         </div>
         <div class="side-content"></div>
@@ -79,56 +88,46 @@
         <div class="main-content">
           <div class="content-header">
             <a class="anchor" name="experience"></a>
-            <h2>Experience</h2>
+            <h2>Work Experience</h2>
           </div>
-          <!-- CARD #1 -->
+
           <div class="content-body">
-            <div class="card">
-              <div class="card-header">
-                <h5><b>Apttus Software Pvt. Ltd.</b> (Jul 2017 - Present) <span class="job-title"> Software Engineer</span></h5>
-              </div>
-              <div class="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <!-- CARD #1 -->
+            <div class="card container-fluid">
+              <div class="card-header row">
+                <div class="col-md-6">
+                    <h5><b>Apttus Software Pvt. Ltd.</b> (July 2017 - Present) </h5>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="job-title"> Software Engineer</h5>
+                </div>
               </div>
             </div>
 
             <!-- CARD #2 -->
-
-            <div class="card">
-              <div class="card-header">
-                <h5><b>Creo - Acquired by Hike Messenger</b> (Jul 2015 - Jul 2107) <span class="job-title">Web Developer</span></h5>
-              </div>
-              <div class="card-content">
-                <p>At CREO, I have worked extensively on creating user interfaces for consumer-facing web and mobile apps. </p>
-                <p>Responsibilities:</p>
-                <ul>
-                  <li> Created user interfaces for mobile apps using React Native and JavaScript.</li>
-                  <li> Developed webpages using HTML/CSS/jQuery.</li>
-                  <li> Implemented responsive web design framework using Bootstrap.</li>
-                  <li> Converted PSDs to working pieces of code.</li>
-                  <li> Taken responsibility of designing, developing and deploying websites.</li>
-                </ul>
-                <p>Accomplishments</p>
-                <ol>
-                  <li>Developed user interfaces for mobile apps using React Native.</li>
-                  <li>Developed a brand new B2B website for Fuel to gather more tractions from OEM companies.</li>
-                  <li>Developed and designed the first-look teaser website for company’s first ever mobile launch, Mark 1.</li>
-                  <li>Created an experience zone for the marketing campaign “#EngraveMyPhone” which was among the top 10 twitter trends in India.</li>
-                </ol>
+            <div class="card container-fluid">
+              <div class="card-header row">
+                <div class="col-md-6">
+                    <h5><b>Creo - Acquired by Hike Messenger</b> (July 2015 - July 2017)</h5>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="job-title">Web Developer</h5>
+                </div>
               </div>
             </div>
 
             <!-- CARD #3 -->
-
-            <div class="card">
-              <div class="card-header">
-                <h5><b>SapientNitro</b> (Oct 2013 - Jul 2015) <span class="job-title">Associate Technology, L1</span></h5>
-              </div>
-              <div class="card-content">
-                <p>At Sapient Nitro, I joined as a fresh graduate and was part of multiple teams throughout my service period. I have been part of development, testing and business operations team getting to experience the different teams of a multinational company.</p>
-                <p> My last role at Sapient was as an Associate Business Operations. I was part of an internal client operations team, wherein, I was responsible for capacity management.</p>
+            <div class="card container-fluid">
+              <div class="card-header row">
+                <div class="col-md-6">
+                    <h5><b>SapientNitro</b> (Oct 2013 - July 2015) </h5>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="job-title">Associate Technology, L1</h5>
+                </div>
               </div>
             </div>
+            
           </div>
         </div>
         <div class="side-content"></div>
@@ -146,64 +145,100 @@
           <div class="content-body">
 
             <!-- EDUCATION 1 -->
-            <div class="card">
-              <div class="card-header">
-                <h5><b>Indian Institue of Information Technology, Allahabad</b> <span class="job-title">Jul 2009 - Jul 2013</span></h5>
+            <div class="card container-fluid">
+              <div class="card-header row">
+                <div class="col-md-6">
+                    <h5><b>Indian Institue of Information Technology, Allahabad</b></h5>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="job-title">July 2009 - July 2013</h5>
+                </div>
               </div>
               <div class="card-content">
                 <p>Attended a 4 year B.Tech course in the field of Information Techonology.</p>
               </div>
             </div>
+            
             <!-- EDUCATION 2 -->
-            <div class="card">
-              <div class="card-header">
-                <h5><b>LSR State Secondary School, Mauritius</b> (O Level & A Level)<span class="job-title">Nov 2004 - Nov 2008</span></h5>
+            <div class="card container-fluid">
+                <div class="card-header row">
+                  <div class="col-md-6">
+                      <h5><b>LSR State Secondary School, Mauritius</b> (O Level &amp; A Level)</h5>
+                  </div>
+                  <div class="col-md-6">
+                      <h5 class="job-title">Nov 2004 - Nov 2008</h5>
+                  </div>
+                </div>
               </div>
-              <!--<div class="card-content">-->
-                <!--<p>Completed S.C and H.S.C </p>-->
-              <!--</div>-->
             </div>
 
           </div>
         </div>
-        <div class="side-content"></div>
       </div>
       <!-- END EDUCATION -->
 
-      <!-- BEGIN PROJECTS -->
+      <!-- BEGIN CERTIFICATIONS -->
       <div class="row">
-        <div class="side-content-sm"></div>
-        <div class="main-content-lg">
+        <div class="side-content"></div>
+        <div class="main-content">
           <div class="content-header">
             <a class="anchor" name="certifications"></a>
-            <h2>Certifications</h2>
+            <h2>Online Certifications</h2>
           </div>
-          <div class="content-body">
-            <!-- CARD #1 -->
-            <div class="project-card">
-              <div class="project-image">
-                <img class="img-thumbnail" src="img/webDev.jpg">
-              </div>
-              <div class="project-content">
-                <h5><b>The Web Developer Bootcamp</b></h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="https://www.udemy.com/certificate/UC-JY56GLQQ/" target="_blank">Certificate link</a>
-              </div>
+          <div class="content-body" align="justify">
+            <div class="certifications-content">
+                <p>I like to enhance my knowledge and keep myself up-to-date by taking online courses. 
+                  In the course of few months, I have successfully completed 
+                    Udemy's best seller web development course, "The Web Developer Bootcamp" by Colt Steele 
+                    and "Essentials in JavaScript - ES6" by David Katz. 
+                    Currently, I am enrolled in two more courses - "Modern React with Redux" &amp; 
+                    "The Coding Interview Bootcamp" both by Stephen Grider. 
+                  </p>
             </div>
+            <!-- CARD #1 -->
+            <div class="container-fluid">
+                <div class="project-card row">
+                    <div class="project-image col-md-4">
+                      <img class="img-thumbnail" src="img/webDev.jpg">
+                    </div>
+                    <div class="project-content col-md-8">
+                      <p><b>The Web Developer Bootcamp</b></p>
+                      <p>A 43 hours of video course, comprised of frontend as well as backend basics.</p>
+                      <p><em>My learnings from this course:</em></p>
+                        <ul>
+                          <li>Create a blog application from scratch using Express, MongoDB, and Semantic UI</li>
+                          <li>Create a complicated yelp-like application from scratch</li>
+                          <li>Create full-stack web applications from scratch</li>
+                          <li>Use NodeJS to write server-side JavaScript</li>
+                          <li>Use Express and MongoDB to create full-stack JS applications</li>
+                          <li>Thinking like a developer</li>
+                          <li>Continue to learn and grow as a developer</li>
+                        </ul>
+                      </p>
+                      <a href="https://www.udemy.com/certificate/UC-JY56GLQQ/" target="_blank">Certificate link</a>
+                    </div>
+                  </div>
+            </div>  
+            
             <!-- CARD #2 -->
-            <div class="project-card">
-              <div class="project-image">
-                <img class="img-thumbnail" src="img/es6.jpg">
-              </div>
-              <div class="project-content">
-                <h5><b>An introduction to ES6</b></h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="https://www.udemy.com/certificate/UC-7J0LL3XC/" target="_blank">Certificate link</a>
+            <div class="container-fluid">
+              <div class="project-card row">
+                <div class="project-image col-md-4">
+                  <img class="img-thumbnail" src="img/es6.jpg">
+                </div>
+                <div class="project-content col-md-8">
+                  <p><b>Essentials in JavaScript - ES6</b></p>
+                  <p>A 1.5 hours of video course with over 40 lectures.</p>
+                  <p>This course helped me get a clear understanding of the basics of ES6. 
+                    Following which, I have started using ES6 in my code and also wrote a blog on Medium about 8 awesome ES6 features.</p>
+                    <a href="https://medium.com/front-end-hacking/es6-start-writing-it-today-957bdc1b9017" target="_blank">Blog link</a>  
+                  <a href="https://www.udemy.com/certificate/UC-7J0LL3XC/" target="_blank">Certificate link</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="side-content-sm"></div>
+        <div class="side-content"></div>
       </div>
       <!-- END PROJECTS -->
 
@@ -217,7 +252,7 @@
           </div>
           <div class="content-body">
             <ul class="ul-skills">
-              <li class="li-skills">Javascript</li>
+              <li class="li-skills">JavaScript</li>
               <li class="li-skills">React</li>
               <li class="li-skills">ES6</li>
               <li class="li-skills">Node</li>
@@ -233,40 +268,35 @@
       <!-- END SKILLS -->
 
       <!-- BEGIN CONTACT -->
-
       <div class="row blue">
-        <div class="side-content"></div>
-        <div class="main-content">
-          <div class="content-header">
-            <a class="anchor" name="contact"></a>
-            <h2 class="white-text">Contact Me</h2>
+        <div class="main-content container-fluid">
+          <div class="row">
+
+            <div class="col-md-6">
+              <div class="content-header">
+                  <a class="anchor" name="contact"></a>
+                  <h2 class="white-text">Contact me</h2>
+                </div>
+                <div class="contact content-body">
+                    <p><a href="mailto:shubhi.raj13@gmail.com" class="white-text">shubhi.raj13@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="content-header">
+                <a class="anchor" name="contact"></a>
+                <h2 class="white-text">For more info</h2>
+              </div>
+              <div class="contact content-body">
+                  <p><a href="https://drive.google.com/open?id=1-uKRwzYh5oZtdD_dvct3c7m1J-uNXDXu" 
+                    target="_blank"
+                    class="white-text">View Resume</a></p>
+              </div>
           </div>
-          <div class="contact content-body">
-            <form method="POST" action="https://formspree.io/email@email.com">
-              <input type="hidden" name="_subject" value="Contact request" />
-              <input type="email" name="_replyto" placeholder="Your email" required>
-              <textarea name="message" placeholder="Your message" required></textarea>
-              <button type="submit">Send</button>
-            </form>
           </div>
         </div>
-        <div class="side-content"></div>
       </div>
       <!-- END CONTACT -->
-
-      <!-- BEGIN FOOTER -->
-      <div class="row">
-        <div class="side-content"></div>
-        <div class="main-content">
-          <div class="content-header">
-          </div>
-          <div class="content-body">
-            <p>Copyright YOUR NAME 2017</p>
-          </div>
-        </div>
-        <div class="side-content"></div>
-      </div>
-      <!-- END FOOTER -->
 
     </div>
   </body>
